@@ -16,6 +16,7 @@ CRIT=7500
  
 echo "graph_title Power Usage"
 echo "graph_args --base 1000"
+echo "graph_scale no"
 echo "graph_vlabel Watt"
 echo "graph_category sensors"
 echo "graph_info This graph shows current power usage"
